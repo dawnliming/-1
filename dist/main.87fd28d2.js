@@ -107,7 +107,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 window.onload = function () {
     document.body.addEventListener('touchmove', function (event) {
         event.preventDefault();
-    });
+    }, { passive: false });
 };
 },{}],"..\\..\\..\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\parcel\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
