@@ -9,6 +9,12 @@
 </head>
 <body>
     <canvas id="canvas" width="100" height="100"></canvas>
+    <div id="clear" onclick="clean()"></div>
+    <script>
+        function clean(){
+            location.reload();
+        }
+    </script>
     <script>
         //设置画布为浏览器页面大小
         let canvas = document.getElementById("canvas");

@@ -6,4 +6,13 @@
 
 #canvas {
   display: block;
+  position: absolute;
+}
+
+#clear{
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  right: 8px;
+  top: 8px;
 }
